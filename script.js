@@ -6,8 +6,12 @@ console.log("Running Sal's Strawberries")
 function writeForm(){
   console.log("Welcome!")
     // Get the form data
+    const name = document.getElementById("name").value;
     const favoriteFruit = document.getElementById("favoriteFruit").value;
+     // Displaying in console
+  console.log("Favorite Fruit:", favoriteFruit);
 }
+
 
 
 
