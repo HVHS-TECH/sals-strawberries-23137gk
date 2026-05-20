@@ -1,15 +1,28 @@
 
 console.log("Running Sal's Strawberries")
 
+function helloWorld() {
+  console.log("Running helloWorld")
+  firebase.database().ref('/').set(
+    {
+      message: 'Kia ora te ao'
+    }
+  )
+}
+
+
 
 
 function writeForm(){
   console.log("Welcome!")
     // Get the form data
-    const name = document.getElementById("name").value;
-    const favoriteFruit = document.getElementById("favoriteFruit").value;
+  const name = document.getElementById("name").value;
+  const favoriteFruit = document.getElementById("favoriteFruit").value;
+  const fruitQuantity = document.getElementById('fruitQuantity').value;
      // Displaying in console
+  console.log("Name:", name);
   console.log("Favorite Fruit:", favoriteFruit);
+  console.log("Servings per day:", fruitQuantity);
 }
 
 
