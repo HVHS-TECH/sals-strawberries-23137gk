@@ -57,3 +57,15 @@ function fb_handleLogin(_user) {
   }
 }
 
+
+
+async function blockingRead() {
+  console.log("Reading message");
+  var snapshot = await firebase.database().ref('/message').once('value');
+  displayRead(snapshot);
+  console.log("Leaving blockingRead")
+}
+
+function displayRead(snapshot) {
+  console.log("The message is: "+ snapshot.val())
+}
