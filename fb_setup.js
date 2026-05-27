@@ -7,15 +7,15 @@
 // Input:  n/a
 // Return: n/a
 /**************************************************************/
-  const firebaseConfig = {
-  apiKey: "AIzaSyCe4hPfEDRZM-DjwRf7QbIo0hpExQVkzNc",
-  authDomain: "gauri-kaushik-12comp.firebaseapp.com",
-  databaseURL: "https://gauri-kaushik-12comp-default-rtdb.firebaseio.com",
-  projectId: "gauri-kaushik-12comp",
-  storageBucket: "gauri-kaushik-12comp.firebasestorage.app",
-  messagingSenderId: "873182020840",
-  appId: "1:873182020840:web:633a42df5371f52179f55d",
-  measurementId: "G-266SFTSZMB"
+const firebaseConfig = {
+  apiKey: "AIzaSyCRaSQsGrwm2-05ej0cAN6HAd1ND8f3JfI",
+  authDomain: "mini-project-eebb0.firebaseapp.com",
+  databaseURL: "https://mini-project-eebb0-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "mini-project-eebb0",
+  storageBucket: "mini-project-eebb0.firebasestorage.app",
+  messagingSenderId: "857380306514",
+  appId: "1:857380306514:web:c0b76fae15d817612c698b",
+  measurementId: "G-8XCNR7FJB2"
 };
 
   // Initialize Firebase

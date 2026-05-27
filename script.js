@@ -5,7 +5,7 @@ function helloWorld() {
   console.log("Running helloWorld")
   firebase.database().ref('/').set(
     {
-      message: 'Kia ora te ao'
+      message: 'hello'
     }
   )
 }
@@ -57,15 +57,3 @@ function fb_handleLogin(_user) {
   }
 }
 
-
-
-async function blockingRead() {
-  console.log("Reading message");
-  var snapshot = await firebase.database().ref('/message').once('value');
-  displayRead(snapshot);
-  console.log("Leaving blockingRead")
-}
-
-function displayRead(snapshot) {
-  console.log("The message is: "+ snapshot.val())
-}
